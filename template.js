@@ -16,6 +16,12 @@
 //
 // Find key in object
 // if ("key_1" in {"key_1": 001})
+//
+// Find middle index of array
+// Math.round((array.length - 1) / 2);
+//
+// Sort array in ASCending
+// array.sort((a, b) => a - b));
 
 const originalConsole = console;
 const logger = {
@@ -24,7 +30,8 @@ const logger = {
   },
 };
 
-const input = `1,2`.split(',');
+const rawInput = `1,2,3`;
+const input = rawInput.split(',');
 
 const result = input.length;
-logger.log('Test', [result], 'args');
+logger.log(result);
