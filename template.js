@@ -22,6 +22,18 @@
 //
 // Sort array in ASCending
 // array.sort((a, b) => a - b));
+//
+// Using class
+// class Person {
+//   constructor(name) {
+//     this.name = name;
+//   }
+
+//   toString() {
+//     return `{name: ${this.name}}`;
+//   }
+// }
+// console.log(new Person('John').toString());
 
 const originalConsole = console;
 const logger = {
